@@ -36,9 +36,12 @@ class Centro extends PluginBase{
     }
 }
 
-$selector = new Example("Server Selector");
+public function Menu-1(){
+$selector = new Example("Jogar");
+    
 $selector->addServerToList(Item::get(Item::DIAMOND_PICKAXE), "play.onmyserverplea.se", 19132);
 $selector->addServerToList(Item::get(Item::IRON), "play.onmyserverplea.se", 19133);
 
 /** @var Player $player */
 $selector->sendTo($player);
+}
